@@ -1,0 +1,372 @@
+/* Style général pour la barre de navigation */
+body {
+    background: rgb(236, 234, 234);
+    font-size: 15px;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+/* Liens de navigation */
+.navbar-links {
+    display: flex;
+    list-style: none; /* Supprime les points */
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar-links li {
+    margin-right: 20px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links a:hover {
+    color: #ceaa00;
+}
+
+/* Icônes dans les liens */
+.navbar-links i {
+    margin-right: 8px; /* Espacement entre l'icône et le texte */
+}
+
+/* Section des icônes et du bouton */
+.navbar-actions {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-actions .icon {
+    font-size: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.subscribe-btn {
+    background-color: #ceaa00;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search:hover {
+    color: #ceaa00;
+}
+
+.subscribe-btn:hover {
+    background-color: #a2870f;
+}
+
+.prestation1 {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    font-size: 20px;
+    padding: 0px 20px;
+    margin-top: 5px;
+    box-shadow: 0px 5px 3px rgb(106, 101, 101);
+
+
+}
+
+.text-prestation1 {
+    padding: 20px;
+}
+
+#mainImage {
+    height: auto;
+    width: auto;
+
+}
+
+.discuss {
+    border-radius: 10px;
+    border: 0cm;
+    background-color: #ceaa00;
+
+}
+
+.discuss a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.discuss:hover {
+    background-color: #9e860f;
+}
+
+.prestation2 {
+    display: flex;
+    gap: 1fr;
+    margin-top: 10px;
+}
+
+.contain-prestation2, .prestation4 {
+    display: grid;
+    background: white;
+    margin: 5px 10px 0px 20px;
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.prestation4 {
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.text-prestation2 {
+    margin: 0px 10px;
+}
+
+.text-prestation2 h2 {
+
+    text-decoration: underline;
+    color: #ceaa00;
+
+}
+
+.text-prestation2 p, .text-prestation2 h2 {
+    text-align: justify;
+}
+
+#SenOr, #MvBanner {
+    width: 250px;
+    padding: 10px;
+    border-radius: 50px;
+    /*box-shadow: #ceaa00;*/
+
+}
+
+.img-prestation2-right {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px 0px 20px;
+    align-items: center;
+
+}
+
+#right1, #right2, #right3 {
+    width: 250px;
+    border-radius: 30px 0 30px;
+}
+
+{
+    width: 175px
+;
+    height: 175px
+;
+}
+
+
+.prestation3 h2 {
+    text-align: center;
+
+}
+
+.containerServ1, .containerServ2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+#img1, #img2, #img3, #img4, #img11, #img22, #img33, #img44 {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+.Serv {
+    display: grid;
+    background: white;
+    border-radius: 15px;
+    padding: 0px;
+    margin-right: 50px;
+    box-shadow: 1px 2px 10px rgb(0, 0, 0);
+
+}
+
+
+.Ajouter {
+    background-color: #ceaa00;
+    color: white;
+    border: none;
+    border-radius: 0px 0px 15px 15px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.Ajouter:hover {
+    background-color: #9e860f;
+
+}
+
+
+.prestation4 {
+    background-image: url(Images/touba.jpg);
+    background-size: cover;
+}
+
+.contain-temoignage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prestation4 h2, .prestation4 #p1 {
+    color: white;
+}
+
+.Temoignage {
+    background-color: white;
+    margin: 25px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.baye {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.prestation5 {
+    display: flex;
+    align-items: center;
+
+    background-color: white;
+    padding: 30px;
+    gap: 1fr;
+}
+
+.prestation5-left {
+    display: grid;
+    align-content: center;
+}
+
+.prestation5-right-img {
+    display: flex;
+}
+
+#p5Img0, #p5Img1, #p5Img2, #p5Img3, #p5Img4 {
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.formulaire {
+    padding: 20px;
+    background-image: url(Images/touba.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+form {
+    margin: 10px;
+}
+
+input, textarea {
+    margin: 10px;
+    padding: 3px 200px 3px 3px;
+
+}
+
+
+.contact {
+    background-color: #ceaa00;
+    background-size: cover;
+    border: 0;
+    padding: 2px 50px;
+}
+
+.contact:hover {
+    background-color: #a2870f;
+    cursor: pointer;
+}
+
+.prestation6 {
+    align-items: center;
+    text-align: center;
+    gap: 1fr;
+    padding: 15px 100px;
+}
+
+.prestation6 h2, .prestation6 h4 {
+
+    color: #ceaa00;
+
+}
+
+.service {
+    background-color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+}
+
+.Objectifs {
+    display: flex;
+    align-items: center;
+    /*justify-content: ;*/
+    gap: 1fr;
+    padding: 5px 50px;
+    background-color: rgb(27, 24, 24);
+    color: white;
+}
+
+
+.object, #object1 h4 {
+    text-align: center;
+    margin: 5px;
+    width: 500px;
+}
+
+#object1 {
+    text-align: justify;
+
+}
+
+footer {
+    text-align: center;
+}
